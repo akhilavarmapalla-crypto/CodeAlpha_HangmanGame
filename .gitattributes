@@ -1,2 +1,6 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+# Add default auto-detection to your .gitattributes file
+echo "* text=auto" > .gitattributesgit add --renormalize .
+git status
+git commit -m "Normalize all the line endings"
