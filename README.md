@@ -1,2 +1,1 @@
-Codealpha_hangman
-;
+Codealpha_hangman task 1
